@@ -17,9 +17,9 @@ jobs:
           command: mvn test
       - azure-acr/build-and-push-image:
           dockerfile: Dockerfile
-          login-server-name: testsxt9aknchjo.azurecr.io
-          registry-name: TestSxT9aKncHJO
-          repo: simple-java-app
+          login-server-name: circleciry.azurecr.io
+          registry-name: circleciry
+          repo: circleciry/simple-java-app
 
 workflows:
   build-deploy-java-app:
